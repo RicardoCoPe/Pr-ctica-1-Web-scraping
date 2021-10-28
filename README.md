@@ -11,7 +11,7 @@ La actividad ha sido realizada de manera individual por **Ricardo Colin Pérez**
 ## Ficheros del repositorio
 
 * **cars_dataset-Analysis.ipynb**: Jupiter Notebook con el código necesario para realizar el estudio visual de los datos que se muestra en el apartado 5 del documento _rcolinp_TCVD_Práctica1.pdf_.
-* **cars_dataset.csv**: dataset extraído al ejecutar el script _main.py_.
+* **cars_dataset.csv**: dataset extraído al ejecutar el script _main.py_ (**DOI: 10.5281/zenodo.5608503**).
 * **cars_scraper.py**: contiene la función _scraping_ que se encarga de realizar el proceso de _web scraping_ de la web _https://www.autocasion.com/_, concretamente del directorio _/coches-ocasión_.
 * **main.py**: punto de entrada al programa. Inicia el proceso de scraping y genera un dataset en formato CSV.
 * **rcolinp_TCVD_Práctica1.pdf**: documento con las respuestas a los apartados 1-10 del guón de la práctica.
