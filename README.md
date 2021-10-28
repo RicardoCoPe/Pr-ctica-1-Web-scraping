@@ -10,9 +10,9 @@ La actividad ha sido realizada de manera individual por **Ricardo Colin Pérez**
 
 ## Ficheros del repositorio
 
-* **src/main.py**: punto de entrada al programa. Inicia el proceso de scraping.
-* **src/scraper.py**: contiene la implementación de la clase _AccidentsScraper_ cuyos métodos generan el conjunto de datos a partir de la base de datos online [PlaneCrashInfo](http://www.planecrashinfo.com/database.htm).
-* **src/reason_classifier.py**: contiene la implementación de la clase que se encarga de asignar una causa a un resumen de accidente dado. Para ello, utiliza la librería *TextBlob*.
+* **cars_dataset-Analysis.ipynb**: Jupiter Notebook con el código necesario para realizar el estudio visual de los datos que se muestra en el apartado 5 del documento rcolinp_TCVD_Práctica1.pdf.
+* **src/scraper.py**: contiene la función _Scraper_ que se encarga de realizar el proceso de _web scraping_ de la web _https://www.autocasion.com/_, concretamente del directorio _/coches-ocasión_.
+* **main.py**: punto de entrada al programa. Inicia el proceso de scraping y genera un dataset en formato CSV.
 
 ## Recursos
 
